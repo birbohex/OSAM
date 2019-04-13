@@ -1,0 +1,38 @@
+"symlink"
+{
+}
+"Run Process"
+{
+	"x86 14.10.25008.0 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x86.cmd"
+		"Command"		""
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2017"
+		"RunKeyName"		"x86 14.10.25008.0"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"Sequence"		"0"
+		"Environment"
+		{
+			"appid"		"420530"
+		}
+	}
+	"x64 14.10.25008.0 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x64.cmd"
+		"Command"		""
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2017"
+		"RunKeyName"		"x64 14.10.25008.0"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"Sequence"		"1"
+		"Environment"
+		{
+			"appid"		"420530"
+		}
+	}
+}
